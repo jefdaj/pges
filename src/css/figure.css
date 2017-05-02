@@ -1,0 +1,55 @@
+figure {
+	font-size: 14px;
+	width: 150px;
+	text-align: center;
+	line-height: 12pt;
+}
+
+@media all and (max-width: 500px) {
+	figure {
+		width: 80%;
+		display: inline;
+	}
+}
+
+.personPhoto {
+	display: inline-block;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	/* to work, it also requires something like this: */
+	/* background: url(./speakers/theirname.jpg) no-repeat; */
+}
+
+ul.personList {
+	width: auto;
+}
+
+ul.personList figure{
+	float: left;
+}
+
+div.figure a{
+    border: none;
+}
+
+/* inline figures (NOT person images?) */
+
+.soft, .caption {
+    font-style: italic;
+    color: #555;
+}
+
+div.figure {
+    text-align: left;
+		/* TODO small actual images down to this? */
+		/* TODO limit all site content, not just photos */
+		max-width: 750px; /* TODO any different on mobile? */
+}
+
+div.figure p {
+    margin-top: 6px;
+}

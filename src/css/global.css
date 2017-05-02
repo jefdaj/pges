@@ -1,0 +1,69 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 24px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 100%;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0px 0px 18px 0px;
+    padding: 24px 0px 0px 0px;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p, ul {
+    margin: 18px 0px 18px 0px;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+
+img {
+    margin: 12px 0px 12px 0px;
+    max-width: 100%;
+}
+
+a img {
+    margin-bottom: 0px;
+}
+
+pre {
+    font-size: 14px;
+    margin-left: 18px;
+    overflow: auto;
+}
+
+/* TODO is this needed?
+div.flickr {
+    margin-top:    60px;
+    margin-bottom: 60px;
+} */

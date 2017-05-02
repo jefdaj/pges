@@ -1,0 +1,3 @@
+/* These are applied to debug layout issues, but shouldn't go in the final site */
+
+* { border: 1px solid #f00; }

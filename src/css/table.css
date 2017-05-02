@@ -1,0 +1,25 @@
+table { 
+	/* background-color: #FFFFFF;
+	color: #000000; */
+	border-spacing: 10px;
+	border-collapse: separate;
+	/* color: darkgreen; */
+}
+
+td { 
+	padding: 8px;
+}
+
+table tr {
+	transition: background 0.2s ease-in;
+}
+
+
+table tr:hover {
+	/* background: lightgreen;
+	cursor: pointer; */
+}
+
+table tr:nth-child(odd) {
+	/* background: lightgreen; */
+}

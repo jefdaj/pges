@@ -1,0 +1,7 @@
+*.sw*
+src/.cabal-sandbox
+src/.stack-work
+src/_cache
+src/_site
+src/cabal.sandbox.config
+src/dist

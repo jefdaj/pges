@@ -1,0 +1,13 @@
+.table{
+				display:table;
+				height: 100%;
+				width: 100%;
+}
+.table-cell{
+				display:table-cell;
+				vertical-align: right;
+}
+/* #twitter-widget-0 {height:100% !important;} */
+/* .twitter-timeline {
+	height: 100% !important;
+} */

@@ -1,0 +1,31 @@
+<!-- TODO on small screens, put caption on right and text below -->
+<!-- TODO rename to profile? -->
+<table class="personFrame">
+  <!-- id is for jumping to descriptions from the schedule -->
+  <a name="$id$">
+    <tr>
+      <td valign="top">
+        <figure>
+          <div class="personPhoto"
+               style="background: url(./files/people/$photo$) no-repeat;">
+                </div>
+          <figcaption>
+            $if(site)$
+              <h4><a href="$site$">$name$</a></h4>
+            $else$
+              <h4>$name$</h4>
+            $endif$
+              <h5>$affiliation$</h5>
+            $if(topic)$
+              <h5>$topic$</h5>
+            $endif$
+          </figcaption>
+        </figure>
+      </td>
+      <td valign="top">
+			  $body$
+      </td>
+    </tr>
+	</a>
+</div>
+&nbsp

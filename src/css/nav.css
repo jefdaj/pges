@@ -1,0 +1,90 @@
+div#nav {
+    /* TODO any reason not to use a plain color for now? */
+    background: #fff url("../files/ui/header.png");
+    padding-bottom: 18px;
+}
+
+div#nav a {
+		color: white;
+		border: none;
+    /* background: blue; /* TODO remove */
+}
+
+/* TODO highlight pages with leaves:
+ * - add css file background to all pages
+ * - make it display: invisible except when hovering
+ * - or maybe except when you're on that page?
+ *   (think that through before getting too deep)
+ */
+
+div#nav a:hover {
+    /* text-shadow: 0px 0px 10px white; */
+		/* background-image: url(); */
+    /* background: #fff url("../files/ui/hover.png"); */
+		background: none;
+}
+
+#logo {
+    max-width: 180px; /* important for top bar */
+		background: none;
+}
+
+@media all and (max-width: 650px) {
+    div#nav h1, div#nav a {
+    		/* TODO any reason not to use a plain color for now? */
+    		/* background: #fff url("../files/ui/header.png"); */
+    		padding-bottom: 18px;
+    		text-align: center;
+		}
+
+		div#nav a {
+        margin: 0px 6px 0px 0px;
+		}
+#logo {
+				margin: auto;
+}
+
+}
+
+@media all and (min-width: 651px) {
+    html {
+    	/* TODO any reason not to use a plain color for now? */
+        background: #fff url("../files/ui/sidebar.png") repeat-y left top;
+    }
+
+    div#nav {
+        background: none;
+        float: left;
+        left: 0px;
+        margin: 0px 0px 0px 18px;
+        position: fixed;
+        top: 0px;
+        width: 125px;
+    }
+
+		div.menu {
+			padding-left: 14px;
+		}
+
+    div#nav h1, div#nav a {
+        display: block;
+        text-align: right; /* TODO back to right? */
+    }
+
+    div#nav a {
+        color: white;
+        margin: 6px 0px 6px 0px;
+    }
+
+    div#content {
+        /* TODO test if this works on different browsers + screens */
+        margin: 0px 0px 0px 156px;
+        padding: 5px 15px 15px 15px;
+        max-width:  80%;
+        max-height: 70%;
+    }
+
+    div#lightbox {
+        margin: 0px 0px 0px 0px;
+    }
+}
