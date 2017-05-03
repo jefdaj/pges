@@ -1,8 +1,6 @@
 ---
 id: oakes
 name: Benjamin Oakes
-affiliation: ???
+affiliation: Graduate Student	Savage, Doudna Labs
 photo: oakes.jpg
 ...
-
-???

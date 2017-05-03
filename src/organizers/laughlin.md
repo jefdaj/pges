@@ -1,8 +1,6 @@
 ---
 id: laughlin
 name: Thomas Laughlin
-affiliation: ???
+affiliation: Graduate Student	Savage, Davies Labs
 photo: laughlin.jpg
 ...
-
-???
