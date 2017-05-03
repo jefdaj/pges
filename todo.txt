@@ -1,15 +1,15 @@
+x general cleanup:
+  x remove post-list and post from templates
+  x fix tabs everywhere
+  x remove berkeley logo for now
+  x remove old speaker pics
+  x remove prev, next pics
+  x remove lightbox
+  x get rid of black spot on leaf
+
 content:
   put in the last couple committee profiles
   arrange speakers alphabetically?
-
-general cleanup:
-  remove post-list and post from templates
-  fix tabs everywhere
-  remove berkeley logo for now
-  remove old speaker pics
-  remove prev, next pics
-  remove lightbox
-  get rid of black spot on leaf
 
 haskell refactor:
   can the html pages be converted to markdown?
