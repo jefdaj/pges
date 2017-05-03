@@ -1,0 +1,30 @@
+content:
+  put in the last couple committee profiles
+  arrange speakers alphabetically?
+
+general cleanup:
+  remove post-list and post from templates
+  fix tabs everywhere
+  remove berkeley logo for now
+  remove old speaker pics
+  remove prev, next pics
+  remove lightbox
+  get rid of black spot on leaf
+
+haskell refactor:
+  can the html pages be converted to markdown?
+  load previous images using hakyll if possible
+  personlist template (people?) for organizers + speakers
+  rename organizers -> about, but use committee/*.md?
+  remove superfluous comments
+
+mobile css:
+  sidebar should go on top with two side-by-side sections
+  person elements should rotate too
+  schedule should turn into blocks with integrated speaker + description
+  twitter feed should go at the bottom, or be removed
+
+css refactor:
+  move all styling from html -> css if possible
+  once everything works, remove unneeded bits
+  name the files nicely by final rather than initial function
