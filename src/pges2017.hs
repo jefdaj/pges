@@ -10,23 +10,47 @@ main = hakyll $ do
   match "index.html"  htmlRules
   match "schedule.md" markdownRules
   match "venue.md"    markdownRules
-  -- TODO actually this one includes photos
-  --      refactor it using getResourceFilePath
-  --      see https://github.com/jaspervdj/hakyll/issues/263
-  match "previous.md" markdownRules
-  -- pages with pics + blurbs for people
-  match "speakers.html"   $ peopleRules "speakers/*"
-  match "organizers.html" $ peopleRules "organizers/*"
+  -- pages that need to load other files
+  match "previous.md"     $ galleryRules "files/2016/*.jpg"
+  match "speakers.html"   $ peopleRules  "speakers/*.md"
+  match "organizers.html" $ peopleRules  "organizers/*.md"
   -- things to load for use in the above pages
   match "speakers/*"   personRules
   match "organizers/*" personRules
   match "templates/*"  templateRules
+  match "files/2016/*.jpg" $ version "url" $ urlRules
   -- files to copy over unchanged
   match "css/*"              copyRules
   match "files/2016/*"       copyRules
   match "files/logos/*.png"  copyRules
   match "files/people/*.jpg" copyRules
   match "files/ui/*.png"     copyRules
+
+---------- refactor this part! ----------
+
+urlRules :: Rules ()
+urlRules = compile $ do
+  path <- fmap (\i -> '/': toFilePath i) getUnderlying
+  makeItem path
+
+urlList :: String -> String -> Pattern -> Compiler (Context a)
+urlList s1 s2 ptn = do
+  urls <- loadAll $ ptn .&&. hasVersion "url"
+  return $ listField s1
+              (field s2 (return . itemBody))
+             (sequence $ map return urls)
+
+galleryRules :: Pattern -> Rules ()
+galleryRules ptn = do
+  route $ setExtension "html"
+  compile $ do
+    photos <- urlList "photos" "src" "files/2016/*.jpg"
+    let ctx = photos <> defaultContext
+    getResourceBody
+      >>= applyAsTemplate ctx
+      >>= loadAndApplyTemplate "templates/default.html" ctx
+
+-----------------------------------------
 
 htmlRules :: Rules ()
 htmlRules = do
