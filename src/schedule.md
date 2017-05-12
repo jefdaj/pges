@@ -10,7 +10,7 @@ Please note that the timing, topics, and student talks may change.
 |  Time |                                               Speaker | Topic                                                                                       |
 |  ---: | ----------------------------------------------------: | :------------------------------------------------------------------------------------------ |
 |  8:30 |                                                       | Registration and Breakfast                                                                  |
-|  9:00 | [Neal Gutterson](/speakers.html#gutterson)            | The abundant potential of edited crops and the requirement for social license               |
+|  9:00 | [Bob Meeley](/speakers.html#meeley)                   | CRISPR/Cas Genome Editing Cycles From Trait Discovery to Product Development                |
 |  9:30 | [Dana Carroll](/speakers.html#carroll)                | A Broad Look at Genome Editing                                                              |
 | 10:00 | [Myeong-Je Cho](/speakers.html#cho)                   | Current Status and Future Prospect of the IGI Plant Genomics and Transformation Programs    |
 | 10:30 |                                                       | Break                                                                                       |
@@ -27,6 +27,6 @@ Please note that the timing, topics, and student talks may change.
 |  3:40 | Student Talk                                          |                                                                                             |
 |  4:00 | Student Talk                                          |                                                                                             |
 |  4:20 | [Hank Greely](/speakers.html#greely)                  | Genome Engineering and Controlling the Biosphere: Issues of Concern and Ways to Manage Them |
-|  4:50 | [Bob Meeley](/speakers.html#meeley)                   | CRISPR/Cas Genome Editing Cycles From Trait Discovery to Product Development                |
+|  4:50 | [Neal Gutterson](/speakers.html#gutterson)            | The abundant potential of edited crops and the requirement for social license               |
 |  5:20 |                                                       | Closing Remarks                                                                             |
 |  5:30 |                                                       | Reception and Poster Session                                                                |
