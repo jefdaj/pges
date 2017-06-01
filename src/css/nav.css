@@ -1,7 +1,8 @@
 div#nav {
     /* TODO any reason not to use a plain color for now? */
     background: #fff url("../files/ui/header.png");
-    padding-bottom: 18px;
+		text-align: center;
+    /* padding-bottom: 18px; */
 }
 
 div#nav a {
@@ -24,26 +25,26 @@ div#nav a:hover {
 		background: none;
 }
 
+#menu {
+	display: inline-block;
+	padding-left: 14px;
+}
+
 #logo {
     max-width: 180px; /* important for top bar */
 		background: none;
 }
 
 @media all and (max-width: 650px) {
-    div#nav h1, div#nav a {
-    		/* TODO any reason not to use a plain color for now? */
-    		/* background: #fff url("../files/ui/header.png"); */
-    		padding-bottom: 18px;
-    		text-align: center;
+    div#nav {
+    		text-align: left; /* "text" here is the logo */
+    }
+		#logo {
+				display: none; /* switch to mobile */
 		}
-
-		div#nav a {
-        margin: 0px 6px 0px 0px;
+		#menu a {
+				display: none; /* switch to mobile */
 		}
-#logo {
-				margin: auto;
-}
-
 }
 
 @media all and (min-width: 651px) {
@@ -62,7 +63,7 @@ div#nav a:hover {
         width: 125px;
     }
 
-		div.menu {
+		div#menu {
 			padding-left: 14px;
 		}
 
