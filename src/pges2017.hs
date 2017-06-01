@@ -7,7 +7,7 @@ main :: IO ()
 main = hakyll $ do
   -- TODO default handler with 404 page?
   -- simple pages
-  match "index.html"  htmlRules
+  match "index.md"  markdownRules
   match "schedule.md" markdownRules
   match "venue.md"    markdownRules
   -- pages that need to load other files
