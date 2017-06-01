@@ -1,5 +1,4 @@
 figure {
-	font-size: 14px;
 	width: 150px;
 	text-align: center;
 	line-height: 12pt;
@@ -8,12 +7,10 @@ figure {
 @media all and (max-width: 500px) {
 	figure {
 		width: 80%;
-		display: inline;
 	}
 }
 
 .personPhoto {
-	display: inline-block;
 	margin: auto;
 	width: 150px;
 	height: 150px;
@@ -22,14 +19,6 @@ figure {
 	-moz-border-radius: 75px;
 	/* to work, it also requires something like this: */
 	/* background: url(./speakers/theirname.jpg) no-repeat; */
-}
-
-ul.personList {
-	width: auto;
-}
-
-ul.personList figure{
-	float: left;
 }
 
 div.figure a{
@@ -47,9 +36,10 @@ div.figure {
     text-align: left;
 		/* TODO small actual images down to this? */
 		/* TODO limit all site content, not just photos */
-		max-width: 750px; /* TODO any different on mobile? */
 }
 
-div.figure p {
-    margin-top: 6px;
+/* allows the table to "collapse" horizontally on small screens */
+@media all and (max-width: 650px) {
+	table { border-collapse: collapse; }
+	th, td.figtd { display: block; }
 }
