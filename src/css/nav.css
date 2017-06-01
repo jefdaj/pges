@@ -25,25 +25,17 @@ div#nav a:hover {
 		background: none;
 }
 
-#menu {
-	display: inline-block;
-	padding-left: 14px;
-}
-
-#logo {
-    max-width: 180px; /* important for top bar */
-		background: none;
-}
 
 @media all and (max-width: 650px) {
     div#nav {
-    		text-align: left; /* "text" here is the logo */
+    		text-align: center;
     }
-		#logo {
-				display: none; /* switch to mobile */
+		#logo, #menu {
+				display: none;
 		}
-		#menu a {
-				display: none; /* switch to mobile */
+		#logomobile img {
+			width: 250px;
+			max-width: 70%;
 		}
 }
 
@@ -52,6 +44,19 @@ div#nav a:hover {
     	/* TODO any reason not to use a plain color for now? */
         background: #fff url("../files/ui/sidebar.png") repeat-y left top;
     }
+
+		#menu {
+			display: inline-block;
+			padding-left: 14px;
+		}
+
+		#logo {
+				max-width: 180px; /* important for top bar */
+				background: none;
+		}
+		#logomobile img {
+				display: none;
+		}
 
     div#nav {
         background: none;
