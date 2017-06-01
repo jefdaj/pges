@@ -15,7 +15,7 @@ title: Schedule
 | 11:00 | [Myeong-Je Cho](/speakers.html#cho)                   | Current Status and Future Propsect of the IGI Plant Genomics and Transformation Programs |
 | 11:30 | [Linda Hanley-Bowdoin](/speakers.html#hanley-bowdain) | Plant DNA Viruses | Difficult|to|Control, Rapidly-Evolving Pathogens |
 | 12:00 | [Niren Murthy](/speakers.html#murthy)                 | In vivo delivery of Cas9 RNP and donor DNA with gold nanoparticles |
-| 12:30 | [Jennifer Doudna](/speakers.html#doudna)              | |
+| 12:30 | [Jennifer Doudna](/speakers.html#doudna)              | Advances in CRISPR biology |
 | 1:00 |                                                       | Lunch |
 | 2:00 | [Siobhan Brady](/speakers.html#brady)                 | Regulation of Root Development in a Changing Environment |
 | 2:30 | Sabin Aslam                                           | CRISPR/Cas9|Based Virus Resistance in Cotton |
