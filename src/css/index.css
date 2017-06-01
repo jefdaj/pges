@@ -8,7 +8,6 @@
   padding:0;
   height:100%;
   /* TODO make width agree with twitter timeline */
-  width: 600px;
   padding-bottom:200px;   /* Height of the footer */
 }
 
@@ -31,9 +30,4 @@ img.berkeleylogo {
   bottom:0;
   width:100%;
   height:200px;   /* Height of the footer */
-}
-
-/* hide twitter timeline except on wide screens */
-@media screen and (max-width: 1000px) {
-  div.twitterborder { display: none !important; }
 }

@@ -1,4 +1,5 @@
 div#content {
 		/* TODO need to apply this to everything by classing up divs? */
-		max-width: 600px;
+		width: 700px;
+		max-width: 100%;
 }

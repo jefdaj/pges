@@ -93,7 +93,6 @@ div#nav a:hover {
         /* TODO test if this works on different browsers + screens */
         margin: 0px 0px 0px 156px;
         padding: 5px 15px 15px 15px;
-        max-width:  80%;
         max-height: 70%;
     }
 

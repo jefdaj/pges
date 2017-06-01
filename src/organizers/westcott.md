@@ -15,7 +15,5 @@ Berkeley\'s [CLEAR project](http://clear-project.org/) to inform the public
 about the work of plant scientists.
 
 <!-- TODO fix width/height on mobile -->
-<!-- 
-<iframe width="560" height="315" src="https://videopress.com/embed/D7R1X1ID" frameborder="0" allowfullscreen></iframe>
 <script src="https://videopress.com/videopress-iframe.js"></script>
--->
+<iframe id="clear" src="https://videopress.com/embed/D7R1X1ID" frameborder="0" allowfullscreen></iframe>

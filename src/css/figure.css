@@ -1,12 +1,12 @@
 figure {
-	width: 150px;
 	text-align: center;
 	line-height: 12pt;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 650px) {
 	figure {
-		width: 80%;
+		max-width: 80%;
+		/* height: 300px; */
 	}
 }
 
@@ -21,8 +21,13 @@ figure {
 	/* background: url(./speakers/theirname.jpg) no-repeat; */
 }
 
-div.figure a{
+figure {
+		display: inline-block;
+}
+
+figure a{
     border: none;
+		text-align: left;
 }
 
 /* inline figures (NOT person images?) */
@@ -32,14 +37,14 @@ div.figure a{
     color: #555;
 }
 
-div.figure {
-    text-align: left;
-		/* TODO small actual images down to this? */
-		/* TODO limit all site content, not just photos */
-}
+figcaption { max-width: 200px; }
 
 /* allows the table to "collapse" horizontally on small screens */
 @media all and (max-width: 650px) {
-	table { border-collapse: collapse; }
-	th, td.figtd { display: block; }
+	table {
+		display: inline-block;
+	  border-collapse: collapse;
+	}
+	td.figtd { display: block; }
+  td.figtd.figure { text-align: center; }
 }

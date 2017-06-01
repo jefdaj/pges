@@ -10,7 +10,7 @@ $for(photos)$
 $endfor$
 
 <iframe src="/files/2016/pamphlet.pdf"
-        style="border: none; height: 175vh;"
+        style="border: none; height: 100vh;"
         width="100%">
   Your browser does not support viewing this PDF, but you can still download it:
   <a href="/files/2016/pamphlet.pdf">Download PDF</a>

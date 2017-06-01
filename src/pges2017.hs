@@ -43,12 +43,13 @@ urlList s1 s2 ptn = do
 galleryRules :: Pattern -> Rules ()
 galleryRules ptn = do
   route $ setExtension "html"
-  compile $ do
+  compile $ pandocCompiler >> do
     photos <- urlList "photos" "src" "files/2016/*.jpg"
     let ctx = photos <> defaultContext
     getResourceBody
       >>= applyAsTemplate ctx
       >>= loadAndApplyTemplate "templates/default.html" ctx
+      >>= relativizeUrls
 
 -----------------------------------------
 
