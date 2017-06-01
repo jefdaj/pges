@@ -34,7 +34,6 @@ img.berkeleylogo {
 }
 
 /* hide twitter timeline except on wide screens */
-/* TODO don't hide Daniel's video or the map! */
 @media screen and (max-width: 1000px) {
-  iframe { display: none !important; }
+  div.twitterborder { display: none !important; }
 }
