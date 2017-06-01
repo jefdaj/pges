@@ -8,15 +8,12 @@
     <title>PGES 2017 - $title$</title>
     <link rel="stylesheet" type="text/css" href="/css/master.css" />
 		<script>
-
-				/* From https://www.w3schools.com/howto/howto_js_sidenav.asp */
-				function openNav() {
-						document.getElementById("menumobile").style.width = "175px";
+				/* from https://www.w3schools.com/howto/howto_js_sidenav.asp */
+				/* and https://stackoverflow.com/a/19074231/429898 */
+				function toggleMenuMobile() {
+						var m = document.getElementById("menumobile");
+						m.style.width = m.style.width == "0px" ? "175px": "0px";
 				}
-				function closeNav() {
-						document.getElementById("menumobile").style.width = "0";
-				} 
-
 		</script>
   </head>
   <body>
@@ -27,16 +24,13 @@
 			<div id="menu">
 				$partial("templates/menu.html")$
 			</div>
-			<div id="menulogomobile" onclick="openNav()">
+			<div id="menulogomobile" onclick="toggleMenuMobile()">
 				<img src="/files/ui/menu-icon.png">
 			</div>
 			<a id="logomobile" href="/">
 				<img src="/files/ui/pges2017mobile.png">
 			</a>
 			<div id="menumobile" class="sidenav">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-				  <img src="/files/ui/menu-icon.png">
-				</a>
 				$partial("templates/menu.html")$
 			</div>
 
