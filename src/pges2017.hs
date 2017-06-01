@@ -11,9 +11,9 @@ main = hakyll $ do
   match "schedule.md" markdownRules
   match "venue.md"    markdownRules
   -- pages that need to load other files
-  match "previous.md"     $ galleryRules "files/2016/*.jpg"
-  match "speakers.html"   $ peopleRules  "speakers/*.md"
-  match "organizers.html" $ peopleRules  "organizers/*.md"
+  match "previous.md"   $ galleryRules "files/2016/*.jpg"
+  match "speakers.md"   $ peopleRules  "speakers/*.md"
+  match "organizers.md" $ peopleRules  "organizers/*.md"
   -- things to load for use in the above pages
   match "speakers/*"   personRules
   match "organizers/*" personRules
@@ -52,15 +52,6 @@ galleryRules ptn = do
 
 -----------------------------------------
 
-htmlRules :: Rules ()
-htmlRules = do
-  route idRoute
-  compile $ do
-    getResourceBody
-      >>= applyAsTemplate defaultContext
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
-
 markdownRules :: Rules ()
 markdownRules = do
   route $ setExtension "html"
@@ -78,8 +69,8 @@ copyRules = do
 
 peopleRules :: Pattern -> Rules ()
 peopleRules ptn = do
-  route idRoute
-  compile $ do
+  route $ setExtension "html"
+  compile $ pandocCompiler >> do
     people <- loadAll ptn
     let ctx = listField "people" defaultContext (return people)
            <> defaultContext
