@@ -27,15 +27,24 @@ div#nav a:hover {
 
 
 @media all and (max-width: 650px) {
-    div#nav {
-    		text-align: center;
-    }
 		#logo, #menu {
 				display: none;
 		}
+		#menumobile a {
+			vertical-align: middle;
+		}
+		#menumobile img {
+			margin: 8px 0px 0px 5px;
+		}
+		#menumobile {
+			max-width: 15%;
+			float: left;
+			line-height: 0px;
+		}
 		#logomobile img {
+			vertical-align: middle;
 			width: 250px;
-			max-width: 70%;
+			margin: 0px 0px 0px 0px;
 		}
 }
 
