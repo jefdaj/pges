@@ -11,7 +11,7 @@
 
 				/* From https://www.w3schools.com/howto/howto_js_sidenav.asp */
 				function openNav() {
-						document.getElementById("menumobile").style.width = "250px";
+						document.getElementById("menumobile").style.width = "175px";
 				}
 				function closeNav() {
 						document.getElementById("menumobile").style.width = "0";
@@ -25,19 +25,8 @@
 
       <a id="logo" href="/"><img src="/files/ui/pges2017.png"</a>
 			<div id="menu">
-        <!-- TODO break this into 2 divs and rotate the other way on mobile -->
-        <a href="/venue.html">Venue</a>
-        <a href="/speakers.html">Speakers</a>
-        <a href="/schedule.html">Schedule</a>
-        <a href="/previous.html">Previous</a>
-        <br/>
-        <a href="/organizers.html">About Us</a>
-        <a href="mailto:plant.genome.engineering@gmail.com">Email</a>
-        <a href="http://twitter.com/PlantGenomeEng">Twitter</a>
-        <a href="https://www.facebook.com/berkeleypmb">Facebook</a>
-        <a href="http://github.com/jefdaj/pges2017">GitHub</a>
-      </div>
-
+				$partial("templates/menu.html")$
+			</div>
 			<div id="menulogomobile" onclick="openNav()">
 				<img src="/files/ui/menu-icon.png">
 			</div>
@@ -48,16 +37,7 @@
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
 				  <img src="/files/ui/menu-icon.png">
 				</a>
-        <a href="/venue.html">Venue</a>
-        <a href="/speakers.html">Speakers</a>
-        <a href="/schedule.html">Schedule</a>
-        <a href="/previous.html">Previous</a>
-        <br/>
-        <a href="/organizers.html">About Us</a>
-        <a href="mailto:plant.genome.engineering@gmail.com">Email</a>
-        <a href="http://twitter.com/PlantGenomeEng">Twitter</a>
-        <a href="https://www.facebook.com/berkeleypmb">Facebook</a>
-        <a href="http://github.com/jefdaj/pges2017">GitHub</a>
+				$partial("templates/menu.html")$
 			</div>
 
     </div>
