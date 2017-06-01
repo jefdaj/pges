@@ -7,6 +7,17 @@
     <meta name="viewport" content="width=device-width" />
     <title>PGES 2017 - $title$</title>
     <link rel="stylesheet" type="text/css" href="/css/master.css" />
+		<script>
+
+				/* From https://www.w3schools.com/howto/howto_js_sidenav.asp */
+				function openNav() {
+						document.getElementById("menumobile").style.width = "250px";
+				}
+				function closeNav() {
+						document.getElementById("menumobile").style.width = "0";
+				} 
+
+		</script>
   </head>
   <body>
 
@@ -27,8 +38,27 @@
         <a href="http://github.com/jefdaj/pges2017">GitHub</a>
       </div>
 
-			<div id="menumobile"><img src="/files/ui/menu-icon.png"></div>
-			<a id="logomobile" href="/"><img src="/files/ui/pges2017mobile.png"></a>
+			<div id="menulogomobile" onclick="openNav()">
+				<img src="/files/ui/menu-icon.png">
+			</div>
+			<a id="logomobile" href="/">
+				<img src="/files/ui/pges2017mobile.png">
+			</a>
+			<div id="menumobile" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+				  <img src="/files/ui/menu-icon.png">
+				</a>
+        <a href="/venue.html">Venue</a>
+        <a href="/speakers.html">Speakers</a>
+        <a href="/schedule.html">Schedule</a>
+        <a href="/previous.html">Previous</a>
+        <br/>
+        <a href="/organizers.html">About Us</a>
+        <a href="mailto:plant.genome.engineering@gmail.com">Email</a>
+        <a href="http://twitter.com/PlantGenomeEng">Twitter</a>
+        <a href="https://www.facebook.com/berkeleypmb">Facebook</a>
+        <a href="http://github.com/jefdaj/pges2017">GitHub</a>
+			</div>
 
     </div>
 

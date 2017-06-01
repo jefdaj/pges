@@ -25,18 +25,17 @@ div#nav a:hover {
 		background: none;
 }
 
-
 @media all and (max-width: 650px) {
 		#logo, #menu {
 				display: none;
 		}
-		#menumobile a {
+		#menulogomobile a {
 			vertical-align: middle;
 		}
-		#menumobile img {
+		#menulogomobile img {
 			margin: 8px 0px 0px 5px;
 		}
-		#menumobile {
+		#menulogomobile {
 			max-width: 15%;
 			float: left;
 			line-height: 0px;
@@ -46,6 +45,7 @@ div#nav a:hover {
 			width: 250px;
 			margin: 0px 0px 0px 0px;
 		}
+    .sidenav a {font-size: 18px;}
 }
 
 @media all and (min-width: 651px) {
@@ -58,12 +58,11 @@ div#nav a:hover {
 			display: inline-block;
 			padding-left: 14px;
 		}
-
 		#logo {
 				max-width: 180px; /* important for top bar */
 				background: none;
 		}
-		#logomobile img {
+		#logomobile img, div#menulogomobile {
 				display: none;
 		}
 
@@ -102,4 +101,48 @@ div#nav a:hover {
     div#lightbox {
         margin: 0px 0px 0px 0px;
     }
+}
+
+/* Sidenav stuff is from https://www.w3schools.com/howto/howto_js_sidenav.asp */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background: #fff url("../files/ui/header.png");
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+.closebtn img {
+			margin: 8px 5px 5px 5px;
 }
