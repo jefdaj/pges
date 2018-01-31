@@ -2,13 +2,13 @@
 title: Previous Symposia
 ...
 
-Here are some pictures from previous years.
-</br>
-Email us if you have some you would like to include here next time!
+Email us if you have any photos you would like to include here next year!
 
 <!-- TODO don't load all these pictures at once? (back to actual gallery) -->
 
 <h2>PGES 2017</h2>
+
+(Photos coming soon)
 
 $for(photos2017)$
   <br/> <img src="$src$">

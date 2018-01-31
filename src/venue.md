@@ -2,7 +2,7 @@
 title: Venue
 ...
 
-The symposium will be held on June 2 from 9:30 AM to 5:30 PM in
+The symposium will be held on May 4 in
 [the Li Ka Shing center](http://www.berkeley.edu/map?likashing), room 245.
 From I-580, take the University Ave exit and drive up University.
 
