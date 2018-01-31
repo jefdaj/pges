@@ -5,7 +5,8 @@
 # TODO also install stack if needed
 
 cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/src"
-sudo apt-get install libgmp-dev zlib1g-dev
+which apt-get &> /dev/null && sudo apt-get install libgmp-dev zlib1g-dev
+which dnf     &> /dev/null && sudo dnf install gmp-devel zlib-devel
 mkdir -p .stack-work/tmp
 export TMPDIR="$PWD"/.stack-work/tmp
 stack setup && stack build \
