@@ -6,6 +6,8 @@
 
 cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/src"
 sudo apt-get install libgmp-dev zlib1g-dev
+mkdir -p .stack-work/tmp
+export TMPDIR="$PWD"/.stack-work/tmp
 stack setup && stack build \
-  && (stack exec pges2017 watch; stack exec pges2017 clean) \
+  && (stack exec pges watch; stack exec pges clean) \
   || stack repl

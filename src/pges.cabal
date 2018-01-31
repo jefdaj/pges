@@ -1,10 +1,10 @@
-name:               pges2017
-version:            0.1.0.0
+name:               pges
+version:            2018.1
 build-type:         Simple
 cabal-version:      >= 1.10
 
-executable pges2017
-  main-is:          pges2017.hs
+executable pges
+  main-is:          pges.hs
   ghc-options:      -threaded
   default-language: Haskell2010
   build-depends:    base,

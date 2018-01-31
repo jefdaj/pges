@@ -7,21 +7,21 @@ main :: IO ()
 main = hakyll $ do
   -- TODO default handler with 404 page?
   -- simple pages
-  match "index.md"  markdownRules
+  match "index.md"    markdownRules
   match "schedule.md" markdownRules
   match "venue.md"    markdownRules
   -- pages that need to load other files
-  match "previous.md"   $ galleryRules "files/2016/*.jpg"
+  match "previous.md"   $ galleryRules "files/201*/*.jpg"
   match "speakers.md"   $ peopleRules  "speakers/*.md"
   match "organizers.md" $ peopleRules  "organizers/*.md"
   -- things to load for use in the above pages
   match "speakers/*"   personRules
   match "organizers/*" personRules
   match "templates/*"  templateRules
-  match "files/2016/*.jpg" $ version "url" $ urlRules
+  match "files/201*/*.jpg" $ version "url" $ urlRules
   -- files to copy over unchanged
   match "css/*"              copyRules
-  match "files/2016/*"       copyRules
+  match "files/201*/*"       copyRules
   match "files/logos/*.png"  copyRules
   match "files/people/*.jpg" copyRules
   match "files/ui/*.png"     copyRules
@@ -44,8 +44,9 @@ galleryRules :: Pattern -> Rules ()
 galleryRules ptn = do
   route $ setExtension "html"
   compile $ pandocCompiler >> do
-    photos <- urlList "photos" "src" "files/2016/*.jpg"
-    let ctx = photos <> defaultContext
+    photos2016 <- urlList "photos2016" "src" "files/2016/*.jpg"
+    photos2017 <- urlList "photos2017" "src" "files/2017/*.jpg"
+    let ctx = photos2016 <> photos2017 <> defaultContext
     getResourceBody
       >>= applyAsTemplate ctx
       >>= loadAndApplyTemplate "templates/default.html" ctx
@@ -80,7 +81,6 @@ peopleRules ptn = do
       >>= loadAndApplyTemplate "templates/default.html" ctx
       >>= relativizeUrls
 
--- these are also used on the organizers page (we're people too!)
 personRules :: Rules ()
 personRules = do
   compile $ pandocCompiler

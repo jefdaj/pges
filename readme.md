@@ -1,4 +1,4 @@
-PGES 2017
+PGES Site
 =========
 
 This is the code for [pges.berkeley.edu](https://pges.berkeley.edu), the
@@ -11,7 +11,7 @@ Build, Test, Deploy
 
 There are four steps to updating the site:
 
-1. Compile the Haskell code into a `pges2017` binary
+1. Compile the Haskell code into a `pges` binary
 2. Use that binary to generate HTML in `src/_site`
 3. Copy the HTML to the test server and make sure it looks OK
 4. Copy it to the main server
@@ -33,3 +33,17 @@ This website falls under regular copyright laws. This means the code is
 available _as a reference_. You shouldn't use it as a starting point for your
 own site, the examples on the [Hakyll site](http://jaspervdj.be/hakyll) are
 much cleaner.
+
+TODO
+----
+
+2018 updates:
+
+* Add previous pamphlet(s)
+* Logo
+* Homepage: date, eventbrite, different sponsors?
+* Speakers
+* Schedule (TBD)
+* Previous: add 2017 pics, and shedule/pamphlet?
+* About: new people! new pics?
+* Github: rename to remove 2017

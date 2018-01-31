@@ -8,9 +8,9 @@ department](http://plantandmicrobiology.berkeley.edu) at UC Berkeley.
 It is part of the [DuPont-Pioneer Plant Sciences Symposia
 series](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries).
 
-The symposium will be held on June 2, 2017.
+This year it will be held on May 4.
 
-[Click here](https://pges2017.eventbrite.com) to register!
+[Click here](https://pges2018.eventbrite.com) to register!
 
 We are excited to bring you talks by leading experts in plant genome
 engineering and related fields, as well as to provide a venue for student talks
