@@ -10,6 +10,7 @@ main = hakyll $ do
   match "index.md"    markdownRules
   match "schedule.md" markdownRules
   match "venue.md"    markdownRules
+  match "contact.md"  markdownRules
   -- pages that need to load other files
   match "previous.md"   $ galleryRules "files/201*/*.jpg"
   match "speakers.md"   $ peopleRules  "speakers/*.md"
