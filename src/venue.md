@@ -3,8 +3,13 @@ title: Venue
 ...
 
 The symposium will be held on May 4 in
-[the Li Ka Shing center](http://www.berkeley.edu/map?likashing), room 245.
-From I-580, take the University Ave exit and drive up University.
+[Li Ka Shing center](http://www.berkeley.edu/map?likashing), room 245.
+
+From I-580: take the University Ave exit and drive up University to get to campus.
+
+<!-- TODO parking? -->
+
+From BART: get off at Downtown Berkeley, walk a block East on Center St to the edge of campus (Oxford st), then about 2 blocks North to Li Ka Shing.
 
 <!-- TODO parking instructions? -->
 

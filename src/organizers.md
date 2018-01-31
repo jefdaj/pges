@@ -2,6 +2,8 @@
 title: Organizers
 ...
 
+<!-- TODO less padding around the bubbles -->
+
 <!-- TODO move to CSS and unify with all pages -->
 <!-- TODO and make this a template -->
 <div style="max-width: 750px;">

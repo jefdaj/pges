@@ -4,11 +4,12 @@ title: Home
  
 The Plant Genome Engineering Symposium is a one-day event hosted by [Graduate
 students](/organizers.html) in the [Plant and Microbiology
-department](http://plantandmicrobiology.berkeley.edu) at UC Berkeley.
+department at UC Berkeley](http://plantandmicrobiology.berkeley.edu).
 It is part of the [DuPont-Pioneer Plant Sciences Symposia
 series](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries).
 
 This year it will be held on May 4.
+(May the 4th be with you!)
 
 Registration coming soon.
 
@@ -19,14 +20,18 @@ Registration coming soon.
 We are excited to bring you talks by leading experts in plant genome
 engineering and related fields, as well as to provide a venue for student talks
 and networking.
-
-<img src="https://teecom.com/media/projects_hero_standard_Li-Ka-Shing.jpg">
   
 Sponsored by:
 
-<img src="/files/logos/dupont.png" height="50px" style="float: inline-block;">
-<img src="/files/logos/pioneer.png" height="50px" style="float: inline-block;">
-<img src="/files/logos/igi.png" height="100" style="float: inline-block;">
+<p style="margin: 0">
+<img src="/files/logos/dupont.png" width="150px" style="float: inline-block; margin: 0">
+<img src="/files/logos/pioneer.png" width="200px" style="float: inline-block; margin: 0">
+</br>
+<img src="/files/logos/igi.png" width="200" style="float: inline-block; margin: 0">
+</p>
+
+<!-- TODO different pic here -->
+<img src="https://teecom.com/media/projects_hero_standard_Li-Ka-Shing.jpg">
 
 <!-- TODO see if reasonable positioning of twitter stuff is possible! -->
 <div class="twitterborder" style="float:right; position: absolute; right: 0; top: 0; z-index=10;">

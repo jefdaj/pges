@@ -40,6 +40,8 @@ urlList s1 s2 ptn = do
               (field s2 (return . itemBody))
              (sequence $ map return urls)
 
+-- TODO make this automatically put in new years' photos?
+-- TODO add old pamphlets?
 galleryRules :: Pattern -> Rules ()
 galleryRules ptn = do
   route $ setExtension "html"

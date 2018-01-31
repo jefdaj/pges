@@ -16,11 +16,12 @@ There are four steps to updating the site:
 3. Copy the HTML to the test server and make sure it looks OK
 4. Copy it to the main server
 
-[build.sh](build.sh) does steps #1-2 on a Debian system, [test.sh](test.sh)
-does #3, and [deploy.sh](deploy.sh) does #4. If you use a different OS or host
-the HTML somewhere else you'll need to adjust them. Ask Jeff for the ssh keys.
-Note that even though not much human work is required to build the site, your
-computer might take a while compiling lots of Haskell packages the first time.
+[build.sh](build.sh) does steps #1-2 on a Debian or Fedora system,
+[test.sh](test.sh) does #3, and [deploy.sh](deploy.sh) does #4. If you use a
+different OS or host the HTML somewhere else you'll need to adjust them. Ask
+Jeff for the ssh keys.  Note that even though not much human work is required
+to build the site, your computer might take a while compiling lots of Haskell
+packages the first time.
 
 License
 -------
@@ -29,10 +30,10 @@ I got permission to make a site "heavily inspired" by [the Hakyll author's
 blog](https://jaspervdj.be/), on the condition that it will be
 available as an example on Github under the same license he uses:
 
-This website falls under regular copyright laws. This means the code is
-available _as a reference_. You shouldn't use it as a starting point for your
-own site, the examples on the [Hakyll site](http://jaspervdj.be/hakyll) are
-much cleaner.
+> This website falls under regular copyright laws. This means the code is
+> available _as a reference_. You shouldn't use it as a starting point for your
+> own site, the examples on the [Hakyll site](http://jaspervdj.be/hakyll) are
+> much cleaner.
 
 TODO
 ----
@@ -46,5 +47,4 @@ TODO
 * Schedule (TBD)
 * Previous: add 2017 pics, and shedule/pamphlet?
 * About: new people! new pics?
-* Github: rename to remove 2017
 * Instead of a mailto link, have an HTML form for it?

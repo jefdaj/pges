@@ -46,5 +46,6 @@ figcaption { max-width: 200px; }
 	  border-collapse: collapse;
 	}
 	td.figtd { display: block; }
+	/* TODO why does it not work? td.figtd.p { margin: 0; } */
   td.figtd.figure { text-align: center; }
 }
