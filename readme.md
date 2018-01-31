@@ -47,3 +47,4 @@ TODO
 * Previous: add 2017 pics, and shedule/pamphlet?
 * About: new people! new pics?
 * Github: rename to remove 2017
+* Instead of a mailto link, have an HTML form for it?
