@@ -19,9 +19,19 @@ There are four steps to updating the site:
 [build.sh](build.sh) does steps #1-2 on a Debian or Fedora system,
 [test.sh](test.sh) does #3, and [deploy.sh](deploy.sh) does #4. If you use a
 different OS or host the HTML somewhere else you'll need to adjust them. Ask
-Jeff for the ssh keys.  Note that even though not much human work is required
+Jeff for the ssh keys. Note that even though not much human work is required
 to build the site, your computer might take a while compiling lots of Haskell
 packages the first time.
+
+Develop
+-------
+
+[build.sh](build.sh) builds the site, then also serves it at <http://localhost:8000>.
+Changes to HTML, CSS, and other source files will be reloaded immediately.
+
+Haskell code is the exception: if you change it you need to kill and re-run the
+build script to recompile. If it works it'll go back to serving the site, and
+f not you'll be dropped into the REPL to fix the type errors.
 
 License
 -------
