@@ -11,11 +11,7 @@ series](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries)
 This year it will be held on May 4.
 (May the 4th be with you!)
 
-Registration coming soon.
-
-<!--
 [Click here](https://pges2018.eventbrite.com) to register!
--->
 
 We are excited to bring you talks by leading experts in plant genome
 engineering and related fields, as well as to provide a venue for student talks
