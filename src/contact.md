@@ -8,7 +8,7 @@ title: Contact Us
 Send us an email at
 <a href="mailto:plant.genome.engineering@gmail.com">plant.genome.engineering@gmail.com</a>.
 
-We'll try to answer any questions/comments as quickly as possible!
+We\'ll try to answer any questions/comments as quickly as possible!
 
 <!-- TODO add PHP/JS script to send an email? Then this HTML could work:
   <form action="mailto:plant.genome.engineering@gmail.com" method="post" enctype="text/plain">

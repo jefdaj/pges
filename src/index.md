@@ -22,7 +22,6 @@ Sponsored by:
 <p style="margin: 0">
 <img src="/files/logos/dupont.png" width="150px" style="float: inline-block; margin: 0">
 <img src="/files/logos/pioneer.png" width="200px" style="float: inline-block; margin: 0">
-</br>
 <img src="/files/logos/igi.png" width="200" style="float: inline-block; margin: 0">
 </p>
 
