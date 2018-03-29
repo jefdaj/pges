@@ -26,7 +26,7 @@ Sponsored by:
 </p>
 
 <!-- TODO different pic here -->
-<img src="https://teecom.com/media/projects_hero_standard_Li-Ka-Shing.jpg">
+<!-- <img src="https://upload.wikimedia.org/wikipedia/en/5/5d/Dwinelle_hall_uc_berkeley.jpg" /> -->
 
 <!-- TODO see if reasonable positioning of twitter stuff is possible! -->
 <div class="twitterborder" style="float:right; position: absolute; right: 0; top: 0; z-index=10;">
