@@ -44,17 +44,3 @@ available as an example on Github under the same license he uses:
 > available _as a reference_. You shouldn't use it as a starting point for your
 > own site, the examples on the [Hakyll site](http://jaspervdj.be/hakyll) are
 > much cleaner.
-
-TODO
-----
-
-2018 updates:
-
-* Add previous pamphlet(s)
-* Logo
-* Homepage: date, eventbrite, different sponsors?
-* Speakers
-* Schedule (TBD)
-* Previous: add 2017 pics, and shedule/pamphlet?
-* About: new people! new pics?
-* Instead of a mailto link, have an HTML form for it?
