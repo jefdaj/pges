@@ -6,20 +6,27 @@ import Data.Monoid ((<>))
 main :: IO ()
 main = hakyll $ do
   -- TODO default handler with 404 page?
+
   -- simple pages
   match "index.md"    markdownRules
   match "schedule.md" markdownRules
   match "venue.md"    markdownRules
   match "contact.md"  markdownRules
+
   -- pages that need to load other files
   match "previous.md"   $ galleryRules "files/201*/*.jpg"
-  match "speakers.md"   $ peopleRules  "speakers/*.md"
-  match "organizers.md" $ peopleRules  "organizers/*.md"
+  match "speakers.md"   $ peopleRules  [("speakers", "speakers/*.md")]
+  match "organizers.md" $ peopleRules
+    [ ("current" , "organizers/current/*.md")
+    , ("previous", "organizers/previous/*.md")
+    ]
+
   -- things to load for use in the above pages
   match "speakers/*"   personRules
-  match "organizers/*" personRules
+  match "organizers/*/*" personRules
   match "templates/*"  templateRules
   match "files/201*/*.jpg" $ version "url" $ urlRules
+
   -- files to copy over unchanged
   match "css/*"              copyRules
   match "files/201*/*"       copyRules
@@ -72,13 +79,17 @@ copyRules = do
   route   idRoute
   compile copyFileCompiler
 
-peopleRules :: Pattern -> Rules ()
-peopleRules ptn = do
+-- represents a list of peoples' bios to insert in a page
+-- the string is what to call the list, like "speakers"
+-- the pattern is which markdown files to include, like "speakers/*.md"
+type BioList = (String, Pattern)
+
+peopleRules :: [BioList] -> Rules ()
+peopleRules fields = do
   route $ setExtension "html"
   compile $ pandocCompiler >> do
-    people <- loadAll ptn
-    let ctx = listField "people" defaultContext (return people)
-           <> defaultContext
+    let addListField (name, ptn) = listField name defaultContext (loadAll ptn)
+        ctx = foldr (<>) defaultContext $ map addListField fields
     getResourceBody
       >>= applyAsTemplate ctx -- fills in the templates
       >>= loadAndApplyTemplate "templates/default.html" ctx

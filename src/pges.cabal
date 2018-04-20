@@ -1,5 +1,5 @@
 name:               pges
-version:            2018.1
+version:            2018.04.20
 build-type:         Simple
 cabal-version:      >= 1.10
 
