@@ -1,7 +1,7 @@
 ---
 id: deihl
 name: Kevin Diehl
-affiliation: DuPont Pioneer Director & Global Regulatory Seed Platform at Corteva, the Agriculture Division of DowDuPont
+affiliation: DuPont Pioneer Director & Global Regulatory Seed Platform Lead
 photo: deihl.jpg
 ...
 

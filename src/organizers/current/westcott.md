@@ -13,7 +13,3 @@ genome editing allow me to apply and adapt new tools to new systems in the
 hopes of deepening our knowledge of photosynthesis. I also work with UC
 Berkeley\'s [CLEAR project](http://clear-project.org/) to inform the public
 about the work of plant scientists.
-
-<!-- TODO fix width/height on mobile -->
-<script src="https://videopress.com/videopress-iframe.js"></script>
-<iframe id="clear" src="https://videopress.com/embed/D7R1X1ID" frameborder="0" allowfullscreen></iframe>

@@ -24,7 +24,7 @@ from the College of Agricultural and Environmental Sciences at UC Davis in
 October 2017, he was appointed Interim Director of the UC Davis World Food
 Center. 
 
-Dr. Bradford\'s research interests span diverse areas of seed science from seed
+Dr\. Bradford\'s research interests span diverse areas of seed science from seed
 germination and conservation to mathematical modeling and molecular biology. He
 has published more than 170 peer-reviewed research and extension articles and
 book chapters, co-edited three books and co-authored a textbook on seed

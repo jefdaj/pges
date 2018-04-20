@@ -37,7 +37,7 @@ main = hakyll $ do
   match "files/**.png" copyRules
   match "files/**.jpg" copyRules
 
--- the title of a list elements you want to use in a page,
+-- the title of a list of things you want to use in a page,
 -- along with a pattern describing which files to pull in
 -- examples:
 --   ("speakers", "speakers/*.md")
