@@ -8,7 +8,7 @@ title: Organizers
 
 <h2>2018 Organizing Committee</h2>
 
-<div style="max-width: 750px;">
+<div style="max-width: 90%;">
 <ul class="personList">
 $for(current)$
 $partial("templates/person.html")$
