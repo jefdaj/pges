@@ -29,11 +29,10 @@ main = hakyll $ do
   match "files/201*/*.jpg" $ version "url" $ urlRules
 
   -- files to copy over unchanged
-  match "css/*"              copyRules
-  match "files/201*/*"       copyRules
-  match "files/logos/*.png"  copyRules
-  match "files/people/*.jpg" copyRules
-  match "files/ui/*.png"     copyRules
+  match "css/*"        copyRules
+  match "files/201*/*" copyRules
+  match "files/**.png" copyRules
+  match "files/**.jpg" copyRules
 
 ---------- refactor this part! ----------
 
