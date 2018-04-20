@@ -15,15 +15,16 @@ main = hakyll $ do
 
   -- pages that need to load other files
   match "previous.md"   $ galleryRules "files/201*/*.jpg"
-  match "speakers.md"   $ peopleRules  [("speakers", "speakers/*.md")]
+  match "speakers.md"   $ peopleRules [("speakers", "speakers/*.md")]
+  match "panel.md"      $ peopleRules [("panel", "panel/*.md")]
   match "organizers.md" $ peopleRules
     [ ("current" , "organizers/current/*.md")
     , ("previous", "organizers/previous/*.md")
     ]
 
   -- things to load for use in the above pages
-  match "speakers/*"   personRules
-  match "organizers/*/*" personRules
+  match "**.md"   personRules
+  -- match "organizers/*/*" personRules
   match "templates/*"  templateRules
   match "files/201*/*.jpg" $ version "url" $ urlRules
 
