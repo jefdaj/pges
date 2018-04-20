@@ -13,8 +13,13 @@ main = hakyll $ do
   match "venue.md"    markdownRules
   match "contact.md"  markdownRules
 
-  -- pages that need to load other files
-  match "previous.md"   $ galleryRules "files/201*/*.jpg"
+  -- pages that load lists of images
+  match "photos.md" $ galleryRules
+    [ ("photos2016", "files/photos/2016/*.jpg")
+    , ("photos2017", "files/photos/2017/*.jpg")
+    ]
+
+  -- pages that load lists of peoples' bios
   match "speakers.md"   $ peopleRules [("speakers", "speakers/*.md")]
   match "panel.md"      $ peopleRules [("panel", "panel/*.md")]
   match "organizers.md" $ peopleRules
@@ -22,17 +27,23 @@ main = hakyll $ do
     , ("previous", "organizers/previous/*.md")
     ]
 
-  -- things to load for use in the above pages
-  match "**.md"   personRules
-  -- match "organizers/*/*" personRules
-  match "templates/*"  templateRules
-  match "files/201*/*.jpg" $ version "url" $ urlRules
+  -- files to load for use in the above pages
+  match "**.md"       personRules
+  match "templates/*" templateRules
+  match "files/**.jpg" $ version "url" $ urlRules
 
   -- files to copy over unchanged
   match "css/*"        copyRules
-  match "files/201*/*" copyRules
   match "files/**.png" copyRules
   match "files/**.jpg" copyRules
+
+-- the title of a list elements you want to use in a page,
+-- along with a pattern describing which files to pull in
+-- examples:
+--   ("speakers", "speakers/*.md")
+--   ("photos2016", "files/2017/*.jpg")
+-- several functions below accept lists of ListPatterns
+type ListPattern = (String, Pattern)
 
 ---------- refactor this part! ----------
 
@@ -48,15 +59,14 @@ urlList s1 s2 ptn = do
               (field s2 (return . itemBody))
              (sequence $ map return urls)
 
--- TODO make this automatically put in new years' photos?
 -- TODO add old pamphlets?
-galleryRules :: Pattern -> Rules ()
-galleryRules ptn = do
+galleryRules :: [ListPattern] -> Rules ()
+galleryRules fields = do
   route $ setExtension "html"
   compile $ pandocCompiler >> do
-    photos2016 <- urlList "photos2016" "src" "files/2016/*.jpg"
-    photos2017 <- urlList "photos2017" "src" "files/2017/*.jpg"
-    let ctx = photos2016 <> photos2017 <> defaultContext
+    let addList (name, ptn) = urlList name "src" ptn
+    photoLists <- mapM addList fields
+    let ctx = foldr (<>) defaultContext photoLists
     getResourceBody
       >>= applyAsTemplate ctx
       >>= loadAndApplyTemplate "templates/default.html" ctx
@@ -79,12 +89,7 @@ copyRules = do
   route   idRoute
   compile copyFileCompiler
 
--- represents a list of peoples' bios to insert in a page
--- the string is what to call the list, like "speakers"
--- the pattern is which markdown files to include, like "speakers/*.md"
-type BioList = (String, Pattern)
-
-peopleRules :: [BioList] -> Rules ()
+peopleRules :: [ListPattern] -> Rules ()
 peopleRules fields = do
   route $ setExtension "html"
   compile $ pandocCompiler >> do
