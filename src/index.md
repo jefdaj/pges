@@ -17,6 +17,8 @@ We are excited to bring you talks by leading experts in plant genome
 engineering and related fields, as well as to provide a venue for student talks
 and networking.
   
+<img src="/files/flyer.png" width="600px">
+  
 Sponsored by:
 
 <p style="margin: 0">
