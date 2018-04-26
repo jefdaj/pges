@@ -16,11 +16,9 @@ $endfor$
 </ul>
 </div>
 
-<!-- TODO why is daniel showing up below this?? some kind of off-by-one error lol -->
-
 <h2>Past Committee Members</h2>
 
-<div style="max-width: 750px;">
+<div style="max-width: 90%;">
 <ul class="personList">
 $for(previous)$
 $partial("templates/person.html")$
