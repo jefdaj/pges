@@ -7,16 +7,16 @@ title: Schedule
 | Time  | Speaker | Topic |
 | :---: | :---------------------------------------: | :------------------------------------------------------------------------------------------ |
 |  8:30 |                                           | _Registration & Breakfast_ |
-|  9:00 | Tabare Abadie                             | Opening Remarks |
+|  9:00 | Neal Gutterson                            | Opening Remarks |
 |  9:20 | [Kevin Hayes](/speakers.html#hayes)       | |
 |  9:50 | [June Medford](/speakers.html#medford)    | |
 | 10:20 |                                           | _Break_ |
-| 10:50 | [Markita Landry](/speakers.html#landry)   | |
+| 10:50 | [Markita Landry](/speakers.html#landry)   | High Aspect Ratio Nanomaterials Enable Biomolecule Delivery and Transgene Expression or Silencing in Mature Plants |
 | 11:20 | [John Marshall](/speakers.html#marshall)  | CRISPR-Cas9-based gene drive architecture for control of agricultural pests |
 | 11:50 | [Beth Sattely](/speakers.html#sattely)    | |
 | 12:20 |                                           | _Lunch_ |
 |  1:40 | [Zachary Lippman](/speakers.html#lippman) | |
-|  2:20 | Asef Levy                                 | Genomic features of bacterial adaptation to plants |
+|  2:20 | Asaf Levy                                 | Genomic features of bacterial adaptation to plants |
 |  2:35 | Cynthia Amstutz                           | RECOVERY OF QH1 (ROQH1) Functions in Sustained Energy Dissipation in Arabidopsis Thaliana |
 |  2:50 | Alex Schultink                            | Plant genome engineering as a tool to facilitate identification of plant disease resistance traits |
 |  3:05 |                                           | _Break 2_ |
