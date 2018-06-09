@@ -37,15 +37,15 @@ main = hakyll $ do
   match "files/**.png" copyRules
   match "files/**.jpg" copyRules
 
--- the title of a list of things you want to use in a page,
--- along with a pattern describing which files to pull in
--- examples:
+-- The name of a list of things you want to use in a page,
+-- along with a pattern describing which files to pull in.
+-- Several functions below accept lists of NamedPatterns.
+-- Examples:
 --   ("speakers", "speakers/*.md")
---   ("photos2016", "files/2017/*.jpg")
--- several functions below accept lists of ListPatterns
-type ListPattern = (String, Pattern)
+--   ("photos2017", "files/2017/*.jpg")
+type NamedPattern = (String, Pattern)
 
----------- refactor this part! ----------
+---------- TODO refactor this part! ----------
 
 urlRules :: Rules ()
 urlRules = compile $ do
@@ -59,8 +59,8 @@ urlList s1 s2 ptn = do
               (field s2 (return . itemBody))
              (sequence $ map return urls)
 
--- TODO add old pamphlets?
-galleryRules :: [ListPattern] -> Rules ()
+-- TODO get old pamphlets from Daniel and add here?
+galleryRules :: [NamedPattern] -> Rules ()
 galleryRules fields = do
   route $ setExtension "html"
   compile $ pandocCompiler >> do
@@ -89,7 +89,7 @@ copyRules = do
   route   idRoute
   compile copyFileCompiler
 
-peopleRules :: [ListPattern] -> Rules ()
+peopleRules :: [NamedPattern] -> Rules ()
 peopleRules fields = do
   route $ setExtension "html"
   compile $ pandocCompiler >> do

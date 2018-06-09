@@ -1,1 +1,4 @@
-resolver: lts-9.5
+packages:
+- .
+system-ghc: true
+resolver: lts-11.8
