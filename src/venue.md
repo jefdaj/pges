@@ -2,7 +2,7 @@
 title: Venue
 ...
 
-The symposium will be held May 4, 8:30 AM to 6:00 PM in
+The symposium will be held May 24, 8:30 AM to 5:00 PM in
 [Dwinelle Hall](http://www.berkeley.edu/map?dwinelle), room 145.
 
 <!-- TODO how to display this on medium, but not small, screens? -->

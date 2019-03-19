@@ -11,11 +11,11 @@ department at UC Berkeley](http://plantandmicrobiology.berkeley.edu).
 It is part of the [DuPont-Pioneer Plant Sciences Symposia
 series](https://www.pioneer.com/home/site/about/research/PlantSciSymposiaSeries).
 
-<!-- [Click here](https://www.eventbrite.com/e/uc-berkeley-plant-genome-engineering-symposium-2018-tickets-42287225229) for tickets! -->
-
 We are excited to bring you talks by leading experts in plant genome
 engineering and related fields, as well as to provide a venue for student talks
-and networking.
+and networking!
+
+Get tickets on the [Eventbrite](https://www.eventbrite.com/e/2019-plant-genome-engineering-symposium-tickets-56209498122) page.
   
 Sponsored by:
 <img src="/files/logos/corteva.png" class="centerimg">
