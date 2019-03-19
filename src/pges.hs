@@ -21,7 +21,9 @@ main = hakyll $ do
 
   -- pages that load lists of peoples' bios
   match "speakers.md"   $ peopleRules [("speakers", "speakers/*.md")]
-  match "panel.md"      $ peopleRules [("panel", "panel/*.md")]
+  -- uncomment if doing the panel again
+  -- also uncomment link in templates/menu.html
+  -- match "panel.md"      $ peopleRules [("panel", "panel/*.md")]
   match "organizers.md" $ peopleRules
     [ ("current" , "organizers/current/*.md")
     , ("previous", "organizers/previous/*.md")
