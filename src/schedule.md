@@ -14,7 +14,7 @@ title: Schedule
 10:20 AM | | Break
 10:50 AM | [Venkatesan Sundaresan](/speakers.html#sundaresan) | Engineering self-propagating hybrid plants by Synthetic Apomixis
 11:20 AM | [Patrick Shih](/speakers.html#shih) | Developing plant synthetic biology tools for complex metabolic engineering
-11:50 AM | [Gordon Pherribo/Santiago Molina](/speakers.html#santiago-molina) | Backstage Decisions and Front-Stage Experts: The Politics of Genome Editing
+11:50 AM | [Gordon Pherribo/Santiago Molina](/speakers.html#molina) | Backstage Decisions and Front-Stage Experts: The Politics of Genome Editing
 12:20 PM | | Lunch
 1:40 PM | [Katarzyna Glowacka](/speakers.html#glowacka) | Crop improvement through manipulation of photosynthesis with the used of synthetic biology
 2:10 PM | [Monica Schmidt](/speakers.html#schmidt) | Towards both pre- and post-harvest Aflatoxin-toxin free Maize
