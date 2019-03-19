@@ -2,25 +2,26 @@
 title: Schedule
 ...
 
+
 <!-- TODO alternating row colors? -->
 
-| Time  | Speaker | Topic |
-| :---: | :---------------------------------------: | :------------------------------------------------------------------------------------------ |
-|  8:30 |                                           | _Registration & Breakfast_ |
-|  9:00 | Neal Gutterson                            | Opening Remarks |
-|  9:20 | [Kevin Hayes](/speakers.html#hayes)       | |
-|  9:50 | [June Medford](/speakers.html#medford)    | |
-| 10:20 |                                           | _Break_ |
-| 10:50 | [Markita Landry](/speakers.html#landry)   | High Aspect Ratio Nanomaterials Enable Biomolecule Delivery and Transgene Expression or Silencing in Mature Plants |
-| 11:20 | [John Marshall](/speakers.html#marshall)  | CRISPR-Cas9-based gene drive architecture for control of agricultural pests |
-| 11:50 | [Beth Sattely](/speakers.html#sattely)    | |
-| 12:20 |                                           | _Lunch_ |
-|  1:40 | [Zachary Lippman](/speakers.html#lippman) | |
-|  2:20 | Asaf Levy                                 | Genomic features of bacterial adaptation to plants |
-|  2:35 | Cynthia Amstutz                           | RECOVERY OF QH1 (ROQH1) Functions in Sustained Energy Dissipation in Arabidopsis Thaliana |
-|  2:50 | Alex Schultink                            | Plant genome engineering as a tool to facilitate identification of plant disease resistance traits |
-|  3:05 |                                           | _Break 2_ |
-|  3:35 | Panel: [Kent Bradford](/panel.html#bradford), [Kevin Deihl](/panel.html#deihl), [Nate Johnson](/panel.html#njohnson) | CRISPR Goes to Washington: A Regulatory Odyssey |
-|  4:40 |                                           | Closing Remarks |
-|  4:50 |                                           | Reception and Poster Session |
-|  5:45 |                                           | Announce poster winner |
+| Time | Speaker | Topic
+| :---: | :--- | :---- |
+8:30 AM | | Registration & Breakfast
+9:00 AM | [Corteva](https://www.corteva.com) | Opening Remarks
+9:20 AM | Corteva Speaker | TBD
+9:50 AM | [Pamela Ronald](/speakers.html#ronald) | The genetic basis of disease resistance in rice
+10:20 AM | | Break
+10:50 AM | [Venkatesan Sundaresan](/speakers.html#sundaresan) | Engineering self-propagating hybrid plants by Synthetic Apomixis
+11:20 AM | [Patrick Shih](/speakers.html#shih) | Developing plant synthetic biology tools for complex metabolic engineering
+11:50 AM | [Gordon Pherribo/Santiago Molina](/speakers.html#santiago-molina) | Backstage Decisions and Front-Stage Experts: The Politics of Genome Editing
+12:20 PM | | Lunch
+1:40 PM | [Katarzyna Glowacka](/speakers.html#glowacka) | Crop improvement through manipulation of photosynthesis with the used of synthetic biology
+2:10 PM | [Monica Schmidt](/speakers.html#schmidt) | Towards both pre- and post-harvest Aflatoxin-toxin free Maize
+2:40 PM | [Tuesday Simmons](/speakers.html#simmons) | Designing synthetic bacterial communities to enhance plant growth during drought
+3:00 PM | | Break
+3:30 PM | [Bastian Minkenberg](/speakers.html#minkenberg) | Engineering broad disease resistance and improved plant architecture in rice using genome editing
+3:50 PM | [Jose Dinneny](/speakers.html#dinneny) | Designing plants from the ground up: using synthetic gene circuits to control root form and function
+4:20 PM | | Closing remarks
+4:30 PM | | Reception and Poster Session
+5:30 PM | | Announce poster winner
