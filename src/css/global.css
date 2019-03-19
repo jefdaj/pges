@@ -63,3 +63,9 @@ pre {
     margin-left: 18px;
     overflow: auto;
 }
+.centerimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}

@@ -17,12 +17,8 @@ We are excited to bring you talks by leading experts in plant genome
 engineering and related fields, as well as to provide a venue for student talks
 and networking.
   
-<!-- Sponsored by:
- <p style="margin: 0">
-<img src="/files/logos/dupont.png" width="150px" style="float: inline-block; margin: 0">
-<img src="/files/logos/pioneer.png" width="200px" style="float: inline-block; margin: 0">
-<img src="/files/logos/igi.png" width="200" style="float: inline-block; margin: 0">
-</p> -->
+Sponsored by:
+<img src="/files/logos/corteva.png" class="centerimg">
 
 <!-- TODO different pic here -->
 <!-- <img src="https://upload.wikimedia.org/wikipedia/en/5/5d/Dwinelle_hall_uc_berkeley.jpg" /> -->
