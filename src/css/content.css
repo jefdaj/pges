@@ -1,4 +1,3 @@
 div#content {
-		/* TODO need to apply this to everything by classing up divs? */
-		max-width: 90%;
+		max-width: 1000px;
 }
