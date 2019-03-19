@@ -4,16 +4,16 @@
 }
 
 div#nav {
-    /* TODO any reason not to use a plain color for now? */
-    background: #fff url("../files/ui/header.png");
-		text-align: center;
-    /* padding-bottom: 18px; */
+	/* TODO any reason not to use a plain color for now? */
+	background: #fff url("../files/ui/header.png");
+	text-align: center;
+	/* padding-bottom: 18px; */
 }
 
 div#nav a {
-		color: white;
-		border: none;
-    /* background: blue; /* TODO remove */
+	color: white;
+	border: none;
+	/* background: blue; /* TODO remove */
 }
 
 /* TODO highlight pages with leaves:
@@ -23,16 +23,16 @@ div#nav a {
  *   (think that through before getting too deep)
  */
 
-div#nav a:hover {
-    /* text-shadow: 0px 0px 10px white; */
+	div#nav a:hover {
+		/* text-shadow: 0px 0px 10px white; */
 		/* background-image: url(); */
-    /* background: #fff url("../files/ui/hover.png"); */
+		/* background: #fff url("../files/ui/hover.png"); */
 		background: none;
-}
+	}
 
-@media all and (max-width: 650px) {
+	@media all and (max-width: 650px) {
 		#logo, #menu {
-				display: none;
+			display: none;
 		}
 		#menulogomobile a {
 			vertical-align: middle;
@@ -50,100 +50,100 @@ div#nav a:hover {
 			width: 250px;
 			margin: 0px 0px 0px 0px;
 		}
-}
+	}
 
-@media all and (min-width: 651px) {
-    html {
-    	/* TODO any reason not to use a plain color for now? */
-        background: #fff url("../files/ui/sidebar.png") repeat-y left top;
-    }
+	@media all and (min-width: 651px) {
+		html {
+			/* TODO any reason not to use a plain color for now? */
+			background: #fff url("../files/ui/sidebar.png") repeat-y left top;
+		}
 		#logo {
-				max-width: 180px; /* important for top bar */
-				background: none;
+			max-width: 180px; /* important for top bar */
+			background: none;
 		}
 		#logomobile img, div#menulogomobile {
-				display: none;
+			display: none;
 		}
 
-    div#nav {
-        background: none;
-        float: left;
-        left: 0px;
-        margin: 0px 0px 0px 18px;
-        position: fixed;
-        top: 0px;
-        width: 125px;
-    }
+		div#nav {
+			background: none;
+			float: left;
+			left: 0px;
+			margin: 0px 0px 0px 18px;
+			position: fixed;
+			top: 0px;
+			width: 125px;
+		}
 
 		div#menu {
 			padding-left: 14px;
 		}
 
-    div#nav h1, div#nav a {
-        display: block;
-        text-align: right;
-    }
+		div#nav h1, div#nav a {
+			display: block;
+			text-align: right;
+		}
 
-    div#nav a {
-        color: white;
-        margin: 6px 0px 6px 0px;
-    }
+		div#nav a {
+			color: white;
+			margin: 6px 0px 6px 0px;
+		}
 
-    div#content {
-        /* TODO test if this works on different browsers + screens */
-        margin: 0px 0px 0px 156px;
-        padding: 5px 15px 15px 15px;
-        max-height: 70%;
-    }
+		div#content {
+			/* TODO test if this works on different browsers + screens */
+			margin: 0px 0px 0px 156px;
+			padding: 5px 15px 15px 15px;
+			max-height: 70%;
+		}
 
-    div#lightbox {
-        margin: 0px 0px 0px 0px;
-    }
-}
+		div#lightbox {
+			margin: 0px 0px 0px 0px;
+		}
+	}
 
-/* Sidenav stuff is from https://www.w3schools.com/howto/howto_js_sidenav.asp */
+	/* Sidenav stuff is from https://www.w3schools.com/howto/howto_js_sidenav.asp */
 
-/* The side navigation menu */
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background: #fff url("../files/ui/header.png");
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 15px; /* Place content 15px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    width: 0; /* toggled with JS in templates/default */
-}
+	/* The side navigation menu */
+	.sidenav {
+		height: 100%; /* 100% Full-height */
+		width: 0; /* 0 width - change this with JavaScript */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Stay on top */
+		top: 0;
+		left: 0;
+		background: #fff url("../files/ui/header.png");
+		overflow-x: hidden; /* Disable horizontal scroll */
+		padding-top: 15px; /* Place content 15px from the top */
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+		width: 0; /* toggled with JS in templates/default */
+	}
 
-/* The navigation menu links */
-.sidenav a {
-    /* padding: 8px 8px 8px 32px; */
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+	/* The navigation menu links */
+	.sidenav a {
+		/* padding: 8px 8px 8px 32px; */
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
 		padding-bottom: 15px;
-    text-align: right;
+		text-align: right;
 		padding-right: 15px;
-}
+	}
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
+	/* When you mouse over the navigation links, change their color */
+	.sidenav a:hover, .offcanvas a:focus{
+		color: #f1f1f1;
+	}
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 36px;
-    margin-right: 50px;
-}
+	/* Position and style the close button (top right corner) */
+	.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 36px;
+		margin-right: 50px;
+	}
 
-.closebtn img {
-			margin: 8px 5px 5px 5px;
-}
+	.closebtn img {
+		margin: 8px 5px 5px 5px;
+	}
