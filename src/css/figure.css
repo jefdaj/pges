@@ -1,13 +1,18 @@
 figure {
+	padding-top: 12px;
 	text-align: center;
 	line-height: 12pt;
 }
 
 @media all and (max-width: 650px) {
 	figure {
-		max-width: 80%;
+		padding-top: 0px;
 		/* height: 300px; */
 	}
+}
+
+@media all and (min-width: 651px) {
+	figcaption { max-width: 200px; }
 }
 
 .personPhoto {
@@ -22,7 +27,7 @@ figure {
 }
 
 figure {
-		display: inline-block;
+	display: inline-grid;
 }
 
 figure a{
@@ -36,8 +41,6 @@ figure a{
     font-style: italic;
     color: #555;
 }
-
-figcaption { max-width: 200px; }
 
 /* allows the table to "collapse" horizontally on small screens */
 @media all and (max-width: 650px) {

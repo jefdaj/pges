@@ -1,7 +1,7 @@
 ---
 id: johnson
 name: Jeffrey Johnson
-affiliation: Graduate Student	Niyogi Lab
+affiliation: Graduate Student,	Niyogi Lab
 photo: johnson.jpg
 ...
 

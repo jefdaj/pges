@@ -1,7 +1,7 @@
 ---
 id: shih
 name: Patrick Shih
-affiliation: Post-Doc Researcher	JBEI, LBL
+affiliation: Post-Doc Researcher,	JBEI & LBL
 photo: shih.jpg
 ...
 

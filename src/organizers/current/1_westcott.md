@@ -1,7 +1,7 @@
 ---
 id: westcott
 name: Daniel Westcott
-affiliation: Graduate Student	Niyogi Lab
+affiliation: Graduate Student,	Niyogi Lab
 photo: westcott.jpg
 ...
 

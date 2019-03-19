@@ -1,7 +1,7 @@
 ---
 id: amstutz
 name: Cindy Amstutz
-affiliation: Graduate Student	Niyogi Lab
+affiliation: Graduate Student,	Niyogi Lab
 photo: amstutz.jpg
 ...
 

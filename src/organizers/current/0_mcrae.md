@@ -1,7 +1,7 @@
 ---
 id: mcrae
 name: Amanda G. McRae - Chair
-affiliation: Graduate Student	Wildermuth Lab
+affiliation: Graduate Student,	Wildermuth Lab
 photo: mcrae.jpg
 ...
 

@@ -1,7 +1,7 @@
 ---
 id: taneja
 name: Jyoti Taneja
-affiliation: Postdoctoral fellow	Wildermuth Lab
+affiliation: Postdoctoral fellow,	Wildermuth Lab
 photo: taneja.jpg
 ...
 

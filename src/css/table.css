@@ -1,13 +1,12 @@
 table { 
 	/* background-color: #FFFFFF;
 	color: #000000; */
-	border-spacing: 10px;
 	border-collapse: separate;
 	/* color: darkgreen; */
 }
 
 td { 
-	padding: 8px;
+	padding: 0px;
 }
 
 table tr {

@@ -1,7 +1,7 @@
 ---
 id: hernandez
 name: Monica Hernandez
-affiliation: Graduate Student	Lindow Lab
+affiliation: Graduate Student,	Lindow Lab
 photo: hernandez.jpg
 ...
 

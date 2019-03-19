@@ -1,7 +1,7 @@
 ---
 id: naylor
 name: Daniel Naylor
-affiliation: Graduate Student	Coleman-Derr Lab
+affiliation: Graduate Student,	Coleman-Derr Lab
 photo: naylor.jpg
 ...
 

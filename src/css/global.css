@@ -15,7 +15,11 @@ body {
     color: #333;
 }
 
+/* on small (mobile) screens */
 @media all and (max-width: 650px) {
+html {
+		  text-align: center;
+}
 		body {
 		  text-align: center;
 		}
