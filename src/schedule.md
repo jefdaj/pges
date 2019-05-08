@@ -9,7 +9,7 @@ title: Schedule
 | :---: | :--- | :---- |
 8:30 AM | | Registration & Breakfast
 9:00 AM | [Corteva](https://www.corteva.com) | Opening Remarks
-9:20 AM | Corteva Speaker | TBD
+9:20 AM | [Hyeon-Je Cho](/speakers.html#cho) | A new transformation system using Ochrobactrum
 9:50 AM | [Pamela Ronald](/speakers.html#ronald) | The genetic basis of disease resistance in rice
 10:20 AM | | Break
 10:50 AM | [Venkatesan Sundaresan](/speakers.html#sundaresan) | Engineering self-propagating hybrid plants by Synthetic Apomixis

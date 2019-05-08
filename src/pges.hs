@@ -11,8 +11,8 @@ main = hakyll $ do
   match "index.md"    markdownRules
   match "schedule.md" markdownRules
   match "venue.md"    markdownRules
+  match "tweets.md"   markdownRules
   match "email.md"    markdownRules
-  match "twitter.md"  markdownRules
 
   -- pages that load lists of images
   match "photos.md" $ galleryRules
