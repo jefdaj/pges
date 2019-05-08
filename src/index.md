@@ -3,7 +3,7 @@ title: Home
 ---
  
  
-<img src="/files/flyer.png">
+<img id="flyer" src="/files/flyer.png">
 
 The Plant Genome Engineering Symposium is a one-day event hosted by [Graduate
 students](/organizers.html) in the [Plant and Microbiology
