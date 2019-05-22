@@ -2,6 +2,7 @@
 title: Home
 ---
  
+<center><h2>[Click here](https://youtu.be/8XnNALysTAA) for the livestream.</h2></center>
  
 <img id="flyer" src="/files/flyer.png">
 

@@ -1,7 +1,7 @@
 ---
 id: gomez
 name: Michael Alberto Gomez
-affiliation: Graduate Student,	Staskawicz Lab
+affiliation: Post-doctorate Reseracher,	Staskawicz Lab
 photo: gomez.jpg
 ...
 
