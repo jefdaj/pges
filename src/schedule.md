@@ -9,7 +9,7 @@ title: Schedule
 | Time | Speaker | Topic
 | :---: | :--- | :---- |
 8:30 AM | | Registration & Breakfast
-9:00 AM | [Corteva](https://www.corteva.com) | Opening Remarks
+9:00 AM | Jason Rauscher ([Corteva](https://www.corteva.com)) | Opening Remarks
 9:20 AM | [Hyeon-Je Cho](/speakers.html#cho) | A new transformation system using Ochrobactrum
 9:50 AM | [Patrick Shih](/speakers.html#shih) | Developing plant synthetic biology tools for complex metabolic engineering
 10:20 AM | | Break
@@ -23,6 +23,6 @@ title: Schedule
 3:00 PM | | Break
 3:30 PM | [Bastian Minkenberg](/speakers.html#minkenberg) | Engineering broad disease resistance and improved plant architecture in rice using genome editing
 3:50 PM | [Jose Dinneny](/speakers.html#dinneny) | Designing plants from the ground up: using synthetic gene circuits to control root form and function
-4:20 PM | | Closing remarks
+4:20 PM | Neal Gutterson ([Corteva](https://www.corteva.com)) | Closing remarks
 4:30 PM | | Reception and Poster Session
 5:30 PM | | Announce poster winner
